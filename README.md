@@ -3,6 +3,7 @@
 1. [Basic Documentation] (README.md#basic-documentation)
 2. [Running the Program] (README.md#running-the-program)
 3. [List of Features] (README.md#list-of-features)
+
 ##Basic Documentation
 
 This entry to the coding challenge was written in C++, compiled using g++ 4.8.4 on Ubuntu 14.04
@@ -20,7 +21,7 @@ program includes an array of visited nodes that is bound by the above restrictio
 
 ##Running the Program
 
-The executable resides in the digital-wallet top directory and is called antifraud.exe.
+The executable resides in the digital-wallet/src directory and is called antifraud.exe.
 
 To compile the program, run:
 
