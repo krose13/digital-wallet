@@ -2,7 +2,7 @@
 
 1. [Basic Documentation] (README.md#basic-documentation)
 2. [Running the Program] (README.md#running-the-program)
-
+3. [List of Features] (README.md#list-of-features)
 ##Basic Documentation
 
 This entry to the coding challenge was written in C++, compiled using g++ 4.8.4 on Ubuntu 14.04
@@ -26,9 +26,21 @@ To compile the program, run:
 
 $ source compile.sh
 
+(this is just a simple g++ command since the program has no includes or dependencies and does not have a makefile)
+
 antifraud.exe takes 5 arguments; 2 input files and 3 output files.  You may run antifraud.exe using the 
 batch_payment and stream_payment csv files by running:
 
 $ source run.sh
 
+from the digital-wallet directory.
 
+##List of Features
+
+I added a handful of additional features while designing this module, including but not limited to:
+
+- number of transactions is tracked per user
+- amount of money spent/received is tracked per user
+- number of transactions between user pairs is tracked
+
+These are pointed out in inline comments as well.
